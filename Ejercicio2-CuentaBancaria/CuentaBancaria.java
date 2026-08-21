@@ -16,5 +16,11 @@ public class CuentaBancaria {
         this.tipoCuenta = tipoCuenta;
     }
 
+    public CuentaBancaria(String numeroCuenta, double saldo, String tipoCuenta){
+        this.numeroCuenta = numeroCuenta;
+        this.tipoCuenta = tipoCuenta;
+        this.saldo = saldo;
+    }
+
 
 }
