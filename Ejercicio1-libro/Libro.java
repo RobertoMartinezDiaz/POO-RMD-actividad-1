@@ -1,3 +1,4 @@
+
 public class Libro {
     String titulo;
     String autor;
@@ -16,6 +17,12 @@ public class Libro {
         this.autor = autor;
         this.numeroPaginas = numeroPaginas;
 
+    }
+
+    public void mostrarDetalleLibro(){
+        System.out.println("Titulo: " + titulo);
+        System.out.println("Autor: " + autor);
+        System.out.print("Numero de Paginas: " + numeroPaginas);
     }
 
 
