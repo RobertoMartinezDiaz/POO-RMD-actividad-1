@@ -11,14 +11,34 @@ public class Estudiante {
     }
 
     public Estudiante(String nombre, int edad){
-        this.nombre = nombre;
-        this.edad = edad;
+        setNombre(nombre);
+        setEdad(edad);
     }
 
     public Estudiante(String nombre, int edad, String curso){
         this(nombre, edad);
-        this.curso = curso;
+        setCurso(curso);
+    }
 
+    public String getNombre() { return nombre; }
+    public void setNombre(String nombre) {
+        if (nombre != null && !nombre.isEmpty()) {
+            this.nombre = nombre;
+        }
+    }
+
+    public int getEdad() { return edad; }
+    public void setEdad(int edad) {
+        if (edad > 0) {
+            this.edad = edad;
+        }
+    }
+
+    public String getCurso() { return curso; }
+    public void setCurso(String curso) {
+        if (curso != null && !curso.isEmpty()) {
+            this.curso = curso;
+        }
     }
 
     @Override
