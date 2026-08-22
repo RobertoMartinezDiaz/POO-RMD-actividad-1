@@ -14,4 +14,9 @@ public class Estudiante {
         this.edad = edad;
     }
 
+    public Estudiante(String nombre, int edad, String curso){
+        this(nombre, edad);
+        this.curso = curso;
+
+    }
 }
