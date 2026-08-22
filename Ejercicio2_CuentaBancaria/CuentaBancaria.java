@@ -1,3 +1,4 @@
+package Ejercicio2_CuentaBancaria;
 public class CuentaBancaria {
     String numeroCuenta;
     double saldo;
@@ -24,7 +25,7 @@ public class CuentaBancaria {
 
     @Override
     public String toString() {
-        return "Número de Cuenta: " + localFormat(this.numeroCuenta) + "\n" +
+        return "Número de Cuenta: " + this.numeroCuenta + "\n" +
                 "Saldo: " + this.saldo + "\n" +
                 "Tipo de Cuenta: " + this.tipoCuenta;
     }

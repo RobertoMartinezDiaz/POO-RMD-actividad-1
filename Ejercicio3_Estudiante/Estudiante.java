@@ -1,3 +1,4 @@
+package Ejercicio3_Estudiante;
 public class Estudiante {
     String nombre;
     int edad;
