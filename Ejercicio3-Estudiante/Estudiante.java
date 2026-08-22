@@ -19,4 +19,11 @@ public class Estudiante {
         this.curso = curso;
 
     }
+
+    @Override
+    public String toString() {
+        return "Nombre: " + this.nombre + "\n" +
+                "Edad: " + this.edad + "\n" +
+                "Curso: " + this.curso;
+    }
 }
