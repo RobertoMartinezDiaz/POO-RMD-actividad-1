@@ -9,4 +9,9 @@ public class Estudiante {
         curso = "Noveno 2";
     }
 
+    public Estudiante(String nombre, int edad){
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
 }
