@@ -20,10 +20,14 @@ public class Libro {
     }
 
     public void mostrarDetalleLibro(){
-        System.out.println("Titulo: " + titulo);
-        System.out.println("Autor: " + autor);
-        System.out.print("Numero de Paginas: " + numeroPaginas);
+        System.out.println(
+                "Titulo " + titulo + "\n" +
+                "Autor´" + autor + "\n" +
+                "Numero de paginas " + numeroPaginas
+        );
+
     }
+
 
 
 
