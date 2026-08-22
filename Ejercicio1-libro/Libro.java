@@ -28,6 +28,13 @@ public class Libro {
 
     }
 
+    @Override
+    public String toString(){
+            return "Titulo: " + this.titulo + "\n" +
+                    "Autor: " + this.autor + "\n" +
+                    "Numero de paginas: " + this.numeroPaginas;
+
+    }
 
 
 
