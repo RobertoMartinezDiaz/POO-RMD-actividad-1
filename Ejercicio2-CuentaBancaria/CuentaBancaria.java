@@ -22,5 +22,12 @@ public class CuentaBancaria {
         this.saldo = saldo;
     }
 
+    @Override
+    public String toString() {
+        return "Número de Cuenta: " + localFormat(this.numeroCuenta) + "\n" +
+                "Saldo: " + this.saldo + "\n" +
+                "Tipo de Cuenta: " + this.tipoCuenta;
+    }
+
 
 }
